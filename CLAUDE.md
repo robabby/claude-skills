@@ -1,6 +1,6 @@
 # Claude Skills Repository
 
-This repository contains custom Claude Code skills for cross-session memory using Obsidian.
+This repository contains custom Claude Code skills for cross-session memory and vault maintenance using Obsidian.
 
 ## Repository Structure
 
@@ -18,6 +18,8 @@ This repository contains custom Claude Code skills for cross-session memory usin
 | reflect | End-of-session reflection and memory consolidation |
 | glean | Surface emergent patterns and insights |
 | pickup | Generate context handoff prompt before clearing sessions |
+| vault-status | Show vault overview, structure, and recent activity |
+| link-check | Find broken wiki-links and orphaned notes |
 
 ## Conventions
 

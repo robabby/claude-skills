@@ -4,7 +4,7 @@ A cross-session memory system for Claude Code, built on Obsidian.
 
 ## What This Is
 
-Six custom Claude Code skills that give Claude persistent memory across sessions using your Obsidian vault as storage. Instead of starting fresh each conversation, Claude can remember decisions, patterns, and context from previous work.
+Eight custom Claude Code skills that give Claude persistent memory across sessions using your Obsidian vault as storage, plus vault maintenance utilities. Instead of starting fresh each conversation, Claude can remember decisions, patterns, and context from previous work.
 
 The system uses Markdown files with YAML frontmatter, making memories human-readable, searchable, and portable.
 
@@ -18,6 +18,8 @@ The system uses Markdown files with YAML frontmatter, making memories human-read
 | **reflect** | End-of-session reflection and memory consolidation |
 | **glean** | Surface emergent patterns and insights |
 | **pickup** | Generate context handoff prompt before clearing sessions |
+| **vault-status** | Show vault overview, structure, and recent activity |
+| **link-check** | Find broken wiki-links and orphaned notes |
 
 ## Prerequisites
 
@@ -92,6 +94,8 @@ Generates a prompt you can paste into a new session to resume work.
 - [reflect](docs/skills/reflect.md) - Session reflection
 - [glean](docs/skills/glean.md) - Pattern discovery
 - [pickup](docs/skills/pickup.md) - Session handoff
+- [vault-status](docs/skills/vault-status.md) - Vault overview
+- [link-check](docs/skills/link-check.md) - Link validation
 
 ## Memory Types
 
