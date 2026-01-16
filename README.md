@@ -29,7 +29,7 @@ The system uses Markdown files with YAML frontmatter, making memories human-read
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/yourusername/claude-skills.git
+   git clone https://github.com/robabby/claude-skills.git
    ```
 
 2. Copy the skills to your Claude Code skills directory:

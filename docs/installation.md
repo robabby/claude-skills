@@ -34,7 +34,7 @@ The skills require the Obsidian MCP server to read and write to your vault.
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/claude-skills.git
+git clone https://github.com/robabby/claude-skills.git
 cd claude-skills
 ```
 
